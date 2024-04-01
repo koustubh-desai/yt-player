@@ -4,6 +4,9 @@
     "description": "A TypeScript utility package for your project",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "extends": "../../package.json#config.shared"
+    "scripts": {
+      "test":"echo 'hey test'",
+      "builds":"echo 'wtf?'"
+    }
   }
   
