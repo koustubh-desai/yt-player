@@ -32,5 +32,8 @@ jobs:
       #     echo "ARTIFACTORY_PASSWORD=your_password" >> $GITHUB_ENV
 
       - name: Publish to Artifactory
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: npm publish --registry <YOUR_ARTIFACTORY_REGISTRY>
+        
         # Replace <YOUR_ARTIFACTORY_REGISTRY> with the URL of your artifactory registry
