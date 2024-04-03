@@ -1,0 +1,11 @@
+{
+    "name": "comp-a",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "scripts": {
+      "build": "rimraf -rf dist && tsc",
+      "test": "tsc -p tsconfig.test.json"
+    },
+    "private": true
+  }

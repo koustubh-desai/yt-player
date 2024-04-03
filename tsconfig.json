@@ -1,8 +1,18 @@
 {
     "compilerOptions": {
-      "target": "ESNext",
-      "module": "CommonJS",
-      "outDir": "dist",
-      "strict": true
-    }
+      "target": "ESNext",  // Adjust target as needed
+      "lib": ["dom", "dom.iterable", "esnext"],  // Adjust lib as needed
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "commonjs",  // Adjust module as needed
+      "outDir": "lib"  // Optional output directory
+    },
+    "include": ["packages/*","**/*.ts"],
+    "exclude": ["**/*.test.ts","**/*.spec.ts"]  // Exclude test files
   }
+  

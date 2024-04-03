@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",   // Adjust as needed
+    "lib": ["dom", "dom.iterable", "esnext"],  // Adjust as needed
+    "outDir": "dist-test"  // Separate output directory
+  },
+  "exclude": ["**/*.ts"],
+  "include": ["packages/**/*.test.ts","packages/**/*.spec.ts"]  // Exclude test files
+}
