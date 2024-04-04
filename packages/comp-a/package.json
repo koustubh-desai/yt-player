@@ -6,6 +6,5 @@
     "scripts": {
       "build": "rimraf -rf dist && tsc",
       "test": "tsc -p tsconfig.test.json"
-    },
-    "private": true
+    }
   }
