@@ -1,7 +1,7 @@
-// import {Header} from 'header_by_kd';
-// import {Footer} from 'footer_by_kd';
-import {Header} from '../../../header_by_kd/src/Header';
-import {Footer} from '../../../footer_by_kd/src/Footer';
+// import {Header} from 'headerbykd';
+// import {Footer} from 'footerbykd';
+import {Header} from '../../../headerbykd/src/Header';
+import {Footer} from '../../../footerbykd/src/Footer';
 
 export default function Index() {
     return (

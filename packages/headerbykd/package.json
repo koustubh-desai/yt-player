@@ -1,6 +1,6 @@
 {
-  "name": "footer_by_kd",
-  "version": "0.0.0",
+  "name": "headerbykd",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
