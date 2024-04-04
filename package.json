@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bootstrap": "lerna bootstrap",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "build": "lerna run build --stream"
   },
   "keywords": [],
   "author": "",

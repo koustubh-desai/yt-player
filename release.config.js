@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         "path": "@semantic-release/exec",
-        "cmd": "npm publish --registry <YOUR_ARTIFACTORY_REGISTRY>"
+        "cmd": "npm publish --registry https://registry.npmjs.org/"
       }
     ],
   };
