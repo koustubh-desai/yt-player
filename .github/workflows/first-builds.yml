@@ -24,11 +24,11 @@ jobs:
       - name: Authenticate with npm
         env:
             NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
+        run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc 
 
       - name: Build and Publish headerbykd package
         #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/headerbykd') }}
-        run: npx lerna exec --scope headerbykd -- npm run build && npx lerna exec --scope headerbykd -- npm publish
+        run: npx lerna exec --scope headerbykd -- npm run build && npx lerna exec --scope headerbykd -- npm update
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
