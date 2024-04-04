@@ -1,0 +1,9 @@
+{
+    "extends": "../../tsconfig.test.json",
+    "compilerOptions": {
+      "outDir": "./dist/out-tsc"
+    },
+    "include": ["src/**/*.test.ts","src/**/*.spec.ts"],  // Include test files
+    "exclude": ["src/**/*.ts"]  // Exclude regular TypeScript files
+  }
+  
