@@ -26,14 +26,14 @@ jobs:
             NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > ~/.npmrc
 
-      - name: Build and Publish header package
-        #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/header') }}
-        run: npx lerna exec --scope header -- npm run build && npx lerna exec --scope header -- npm publish
+      - name: Build and Publish header_by_kd package
+        #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/header_by_kd') }}
+        run: npx lerna exec --scope header_by_kd -- npm run build && npx lerna exec --scope header_by_kd -- npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
-      - name: Build and Publish footer package
-        #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/footer') }}
-        run: npx lerna exec --scope footer -- npm run build && npx lerna exec --scope footer -- npm publish
+      - name: Build and Publish footer_by_kd package
+        #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/footer_by_kd') }}
+        run: npx lerna exec --scope footer_by_kd -- npm run build && npx lerna exec --scope footer_by_kd -- npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
