@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - master
-      - feat/learna
+#      - feat/learna
 
 jobs:
   build:
