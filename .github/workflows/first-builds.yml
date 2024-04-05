@@ -36,8 +36,8 @@ jobs:
       #  env:
       #    NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
-      # - name: Build and Publish footerbykd package
-      #   #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/footerbykd') }}
-      #   run: npx lerna exec --scope footerbykd -- npm run build && npx lerna exec --scope footerbykd -- npm publish
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - name: Build and Publish footerbykd package
+        #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/footerbykd') }}
+        run: npx lerna exec --scope footerbykd -- npm run build && npx lerna exec --scope footerbykd -- npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
