@@ -91,7 +91,7 @@ out
 .nuxt
 
 # commenting below since npm is not packaging this folder.
-#dist
+dist
 
 # Gatsby files
 .cache/

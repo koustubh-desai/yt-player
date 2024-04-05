@@ -4,9 +4,7 @@
   "npmClient": "npm",
   "conventionalCommits": true,
   "packages": ["packages/*"],
-  "command": {
-    "publish": {
-      "dist": true
-    }
-  }
+  "npmClientArgs": [
+    "build"
+  ]
 }
