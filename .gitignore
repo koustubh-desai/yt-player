@@ -131,4 +131,3 @@ dist
 
 .turbo
 publish.sh
-package-lock.json
