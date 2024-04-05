@@ -1,6 +1,6 @@
 {
   "name": "footerbykd",
-  "version": "9.8.0",
+  "version": "9.9.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
