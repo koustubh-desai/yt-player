@@ -89,7 +89,9 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
+# commenting below since npm is not packaging this folder.
+#dist
 
 # Gatsby files
 .cache/
