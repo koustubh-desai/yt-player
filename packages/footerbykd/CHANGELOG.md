@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2024-04-05)
+
+
+### Features
+
+* footer 8 ([7ae783d](https://github.com/koustubh-desai/yt-player/commit/7ae783da14801d096994bd2c2375db86aa9cdc87))
+
+
+
+
+
 ## 0.4.1 (2024-04-05)
 
 **Note:** Version bump only for package footerbykd
