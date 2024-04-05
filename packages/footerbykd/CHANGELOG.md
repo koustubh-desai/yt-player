@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2024-04-05)
+
+
+### Features
+
+* just footer ([d285ed3](https://github.com/koustubh-desai/yt-player/commit/d285ed35396136e97d0ef21b9c0f9b78b0c8254c))
+
+
+
+
+
 ## 0.2.1 (2024-04-05)
 
 **Note:** Version bump only for package footerbykd
