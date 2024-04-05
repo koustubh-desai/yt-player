@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2024-04-05)
+
+
+### Features
+
+* just footer changes ([2ec2b1d](https://github.com/koustubh-desai/yt-player/commit/2ec2b1dc9944671d0eaf49264090e3076c981e29))
+
+
+
+
+
 # 0.3.0 (2024-04-05)
 
 
