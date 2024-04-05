@@ -31,10 +31,11 @@ jobs:
       #   run: |
       #     echo "ARTIFACTORY_USERNAME=your_username" >> $GITHUB_ENV
       #     echo "ARTIFACTORY_PASSWORD=your_password" >> $GITHUB_ENV
-
-      - name: Publish to Artifactory
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        run: npm publish --registry https://registry.npmjs.org/
+      - name: Release
+        run: npx lerna version --conventional-commits --yes && npx lerna publish from-git
+      # - name: Publish to Artifactory
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      #   run: npm publish --registry https://registry.npmjs.org/
         
         # Replace <YOUR_ARTIFACTORY_REGISTRY> with the URL of your artifactory registry
