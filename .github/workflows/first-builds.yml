@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        # pulls all commits (needed for lerna / semantic release to correctly version). https://github.com/actions/checkout/issues/217
+        with:
+          fetch-depth: "0"
+      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Setup GIT config
         run: |
