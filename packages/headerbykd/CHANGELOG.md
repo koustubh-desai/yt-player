@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 8.6.0 (2024-04-05)
+
+
+### Features
+
+* footer 17 ([3cab24d](https://github.com/koustubh-desai/yt-player/commit/3cab24d17673a8edc17f5af3dd7b1e5ed51563ed))
+
+
+
+
+
 # 8.5.0 (2024-04-05)
 
 
