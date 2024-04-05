@@ -32,14 +32,14 @@ jobs:
 
       - name: Authenticate with npm
         env:
-            NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
           set -e
-          npm whoami
           #npm login
           echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" > ~/.npmrc
           npm login --registry=https://registry.npmjs.org --always-auth --//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}
           npm adduser
+          npm whoami
 
       #- name: Build and Publish headerbykd package
       #  #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/headerbykd') }}
