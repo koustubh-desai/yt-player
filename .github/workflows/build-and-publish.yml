@@ -32,7 +32,9 @@ jobs:
       #     echo "ARTIFACTORY_USERNAME=your_username" >> $GITHUB_ENV
       #     echo "ARTIFACTORY_PASSWORD=your_password" >> $GITHUB_ENV
       - name: Release
-        run: npx lerna version --conventional-commits --yes && npx lerna publish from-git
+        run: |
+          # npx lerna version --conventional-commits --yes && npx lerna publish from-git
+          npx lerna version --conventional-commits --yes && npx lerna publish from-package --yes
       # - name: Publish to Artifactory
       #   env:
       #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
