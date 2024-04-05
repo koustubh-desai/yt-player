@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        
+
       - name: Setup GIT config
         run: |
           git config user.name "GitHub Actions"
@@ -41,7 +41,9 @@ jobs:
       #  env:
       #    NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Release
-        run: npx lerna version --conventional-commits --yes && npx lerna publish from-git
+        run: |
+          # npx lerna version --conventional-commits --yes && npx lerna publish from-git
+          npx lerna version --conventional-commits --yes && npx lerna publish from-package --yes
       # - name: Build and Publish footerbykd package
       #   #if: ${{ github.event_name == 'push' && contains(github.event.commits[0].added, 'packages/footerbykd') }}
       #   run: npx lerna exec --scope footerbykd -- npm run build && npx lerna exec --scope footerbykd -- npm publish
