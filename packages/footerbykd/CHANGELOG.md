@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.15.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd@9.14.0...footerbykd@9.15.0) (2024-04-05)
+
+
+### Features
+
+* footer 27 ([499e749](https://github.com/koustubh-desai/yt-player/commit/499e749c5b6fba3a8e9c8b69a8924ecef0d32a6b))
+
+
+
+
+
 # [9.14.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd@9.13.0...footerbykd@9.14.0) (2024-04-05)
 
 
