@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 8.5.0 (2024-04-05)
+
+
+### Features
+
+* fooer 16 ([6fcd48b](https://github.com/koustubh-desai/yt-player/commit/6fcd48bb80e8a233e9a1bbacb4a751b3984a8bb8))
+
+
+
+
+
 # 8.4.0 (2024-04-05)
 
 
