@@ -2,9 +2,6 @@
   "name": "footerbykd",
   "version": "9.17.0",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && rollup --config",
