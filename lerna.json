@@ -3,8 +3,5 @@
   "version": "independent",
   "npmClient": "npm",
   "conventionalCommits": true,
-  "packages": ["packages/*"],
-  "npmClientArgs": [
-    "build"
-  ]
+  "packages": ["packages/*"]
 }
