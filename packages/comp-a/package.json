@@ -1,6 +1,6 @@
 {
   "name": "comp-a",
-  "version": "0.6.0",
+  "version": "8.2.0",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
