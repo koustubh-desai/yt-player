@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "poc",
   "version": "0.0.0",
-=======
-  "name": "poc2",
-  "version": "0.0.0-development",
->>>>>>> main
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,11 +15,7 @@
   "workspaces": [
     "packages/*"
   ],
-<<<<<<< HEAD
   "private": true,
-=======
-  "private": false,
->>>>>>> main
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.2",
