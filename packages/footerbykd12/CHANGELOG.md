@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.2.1...footerbykd12@0.2.2) (2024-04-08)
+
+
+### Bug Fixes
+
+* **prepublish 2:** for dist folder ([77ead58](https://github.com/koustubh-desai/yt-player/commit/77ead58642fb2fab0688b4159736d97e59a99b9e))
+
+
+
+
+
 ## [0.2.1](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.2.0...footerbykd12@0.2.1) (2024-04-08)
 
 
