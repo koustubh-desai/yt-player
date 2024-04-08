@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2024-04-08)
+
+
+### Features
+
+* **prepublish 3:** for header ([d7d3010](https://github.com/koustubh-desai/yt-player/commit/d7d3010f918c864f9019efc3a47a5ae4b3386e0b))
+
+
+
+
+
 # 0.2.0 (2024-04-05)
 
 
