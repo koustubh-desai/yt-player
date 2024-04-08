@@ -89,6 +89,8 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
+
+# commenting below since npm is not packaging this folder.
 dist
 
 # Gatsby files
@@ -130,3 +132,4 @@ dist
 .pnp.*
 
 .turbo
+publish.sh
