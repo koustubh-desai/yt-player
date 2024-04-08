@@ -48,3 +48,12 @@ jobs:
           # npx lerna version --conventional-commits --yes && npx lerna publish from-package --yes
           # npx lerna version --conventional-commits --scope=comp-a
 
+<<<<<<< HEAD
+=======
+      - name: Publish to Artifactory
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        run: npm publish --registry https://registry.npmjs.org/
+        
+        # Replace <YOUR_ARTIFACTORY_REGISTRY> with the URL of your artifactory registry
+>>>>>>> main
