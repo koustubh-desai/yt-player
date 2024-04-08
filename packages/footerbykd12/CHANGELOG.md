@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2024-04-08)
+
+
+### Features
+
+* footerbykd 3 ([37b69ca](https://github.com/koustubh-desai/yt-player/commit/37b69cada8548de8d361256d9265452710ed025f))
+* footerbykd12 10 ([3ecef2f](https://github.com/koustubh-desai/yt-player/commit/3ecef2fdaa3130c130a3390b16f8ccac8666013e))
+* footerbykd12 4 ([042ee32](https://github.com/koustubh-desai/yt-player/commit/042ee329d88552bf4d8f8ee12f1041b5f6578e1c))
+* footerbykd12 5 ([7431ef0](https://github.com/koustubh-desai/yt-player/commit/7431ef0a0cdb4e4dbeb41d49f20dd0c7f8820f96))
+* footerbykd12 6 ([f5409fa](https://github.com/koustubh-desai/yt-player/commit/f5409fa6f1e6be845c36c2c82ea9a13e1e463e7e))
+* footerbykd12 7 ([9b3d2b3](https://github.com/koustubh-desai/yt-player/commit/9b3d2b3c690ca356ced1ee32ab0465501e6ba645))
+* footerbykd12 8 ([839a573](https://github.com/koustubh-desai/yt-player/commit/839a57346295c43ac659490635831b3e4c2f3442))
+* footerbykd12 9 ([549cd4b](https://github.com/koustubh-desai/yt-player/commit/549cd4b542fabfae6ca71b6899340165f25541d8))
+
+
+
+
+
 # [0.3.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.2.2...footerbykd12@0.3.0) (2024-04-08)
 
 
