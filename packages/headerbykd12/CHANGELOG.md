@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2024-04-08)
+
+
+### Features
+
+* headerbykd12 1 ([8b21419](https://github.com/koustubh-desai/yt-player/commit/8b21419899b165011669893d91d4df44d8ba456d))
+* headerbykd12 2 ([2d59ae5](https://github.com/koustubh-desai/yt-player/commit/2d59ae5f51f06600345f53dae3b3de84e02f604a))
+
+
+
+
+
 # 0.3.0 (2024-04-08)
 
 
