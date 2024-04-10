@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.8.0...footerbykd12@0.9.0) (2024-04-10)
+
+
+### Features
+
+* updated with pink flod ([a005055](https://github.com/koustubh-desai/yt-player/commit/a0050551d8e4eb857e02b1609221d285fc298b88))
+
+
+
+
+
 # [0.8.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.7.0...footerbykd12@0.8.0) (2024-04-10)
 
 
