@@ -3,7 +3,7 @@ import React from 'react';
 export function Footer() {
     return (
         <footer>
-            Footer 15 - Comfortably Numb
+            Footer 16 - Beatles - How deep is your love.
         </footer>
     );
 }
