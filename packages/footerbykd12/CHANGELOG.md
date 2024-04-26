@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.10.0...footerbykd12@0.11.0) (2024-04-26)
+
+
+### Features
+
+* eye in the sky ([9b76a0b](https://github.com/koustubh-desai/yt-player/commit/9b76a0bdfda1c944747a79c04855fc9e48c14e8f))
+
+
+
+
+
 # [0.10.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.9.0...footerbykd12@0.10.0) (2024-04-12)
 
 
