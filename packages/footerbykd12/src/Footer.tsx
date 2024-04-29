@@ -3,7 +3,7 @@ import React from 'react';
 export function Footer() {
     return (
         <footer>
-            Footer 18 - Atif aslam something 1
+            Footer 19 - A.R Rehman kehena hi kya
         </footer>
     );
 }
