@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.11.1...footerbykd12@0.12.0) (2024-04-29)
+
+
+### Features
+
+* song by a r rehman ([504ebd5](https://github.com/koustubh-desai/yt-player/commit/504ebd5a5a2af2b5256b2b473a20d69aeb2a9c9a))
+
+
+
+
+
 ## [0.11.1](https://github.com/koustubh-desai/yt-player/compare/footerbykd12@0.11.0...footerbykd12@0.11.1) (2024-04-29)
 
 **Note:** Version bump only for package footerbykd12
